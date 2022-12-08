@@ -8,6 +8,8 @@ The function we will be learning today is Matching an Email.
 ## Summary
 
 Matching an email. 
+This expression is made to make sure that the user can verify they have a valid email address.
+Each character of this regex has a responsibility to make sure that a user enters an email address that begins with an unspecified number of charcters preceding the @ symbol, followed by a domain.
 Here is the regular expression used:  /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/.
 Each character inside this sentence has it's own function. 
 We will be going over the functions inside each character of this expression. 
