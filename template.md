@@ -2,7 +2,8 @@
 Matching an Email
 
 Regex is it's own type of language with it's own library, a mini programming language. 
-It uses regular expressions to process data and algorithms into different functions. The function we will be learning today is Matching an Email. 
+It uses regular expressions to process data and algorithms into different functions. 
+The function we will be learning today is Matching an Email. 
 
 ## Summary
 
@@ -10,6 +11,7 @@ Matching an email.
 Here is the regular expression used:  /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/.
 Each character inside this sentence has it's own function. 
 We will be going over the functions inside each character of this expression. 
+Below listed are all of the functions that can be found inside a regular expression.
 
 
 ## Table of Contents
@@ -87,6 +89,8 @@ engine to match only one out of several characters.
 In simple natural language, the alternation of the word OR is used to express multiple choices. 
 For example knowing a language of English, French, or Spanish. 
 But specified as a Condition in regex, this means that the operator(Logical OR) is used to match characters from one side to the other. For example, (gG) Will match either G or g from input string. 
+The characters used for this OR expression are the following: || |
+When used singularly it can be used as AND expression. 
 
 /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
 
